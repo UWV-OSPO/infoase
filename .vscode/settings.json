@@ -1,0 +1,25 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+      },
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 200,
+    "python.testing.pytestArgs": ["${workspaceFolder}/tests/", "--rootdir=${workspaceFolder}"],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.autoComplete.extraPaths": ["${workspaceFolder}/src/"],
+    "pythonTestExplorer.testFramework": "pytest", // (or unittest)
+    "pythonTestExplorer.outputs.showOutputsOnRun": true,
+    "pythonTestExplorer.testplanArgs": ["-sxv"],
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.extraPaths": ["${workspaceFolder}/src"],
+    "pylint.args": ["--rcfile=${workspaceFolder}/.vscode/.pylintrc"],
+    "testExplorer.errorDecoration": false,
+    "testExplorer.errorDecorationHover": false
+    
+}

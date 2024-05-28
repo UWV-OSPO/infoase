@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkdir -pv tmp
+source ./.venv/bin/activate && export PYTHONPATH=$(pwd) && streamlit run src/Home.py --logger.level=info
